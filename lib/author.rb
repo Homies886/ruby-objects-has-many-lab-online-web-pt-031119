@@ -20,9 +20,9 @@ class Author
   end
   
   def add_post_by_title(name)
-    post = Post.new(name)
+    posty = Post.new(name)
     @posts << post
-    post.author = self
+    posty.author = self
     @@post_count += 1
   end  
     
