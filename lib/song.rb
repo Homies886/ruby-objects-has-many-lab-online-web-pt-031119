@@ -17,6 +17,4 @@ class Song
     self.artist.name if artist
   end
   
-  
-  
 end
